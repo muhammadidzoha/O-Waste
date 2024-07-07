@@ -12,8 +12,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Dashboard />} />
-        <Route path="/user-management" element={<UserManagement />} />
-        <Route path="/article-management" element={<ArticleManagement />} />
+        <Route path="user-management" element={<UserManagement />} />
+        <Route path="article-management" element={<ArticleManagement />} />
       </Route>
       <Route path="auth/login" element={<Login />} />
       <Route path="*" element={<NotFound />} />
