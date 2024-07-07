@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test div .absolute {
+  background-color: #fff;
+  border: 1px solid white;
+}
+
+.test div + div {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div.flex {
+  border: 1px solid #004d3d;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div.flex div button {
+  color: #004d3d;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div.flex div button:hover {
+  background-color: #e5e7eb;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div.flex div button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .border-b {
+  border-bottom: 1px solid #004d3d;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .my-1 {
+  color: black;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .w-full {
+  color: #004d3d;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .w-full button {
+  font-weight: 400;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .w-full button:hover {
+  background-color: #e5e7eb;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .w-full button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .my-1 .text-gray-400 {
+  color: #9ca3af;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .my-1 .text-blue-500 {
+  color: #004d3d;
+  font-weight: 700;
+}
+
+.test div + div .py-2 .space-y-4 .w-full > div .my-1 .bg-blue-500 {
+  color: white;
+  background-color: #004d3d;
+}
+
+.test .bottom-full {
+  right: -1px;
+}
